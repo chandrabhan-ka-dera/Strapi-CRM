@@ -21,31 +21,31 @@
       "required": true
     },
     "FeaturedImage": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
-    },
-    "Gallery": {
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
+      ]
+    },
+    "Gallery": {
       "type": "media",
-      "multiple": true
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     },
     "EntryFee": {
-      "type": "string"
-    },
-    "Timings": {
-      "type": "string"
+      "type": "string",
+      "default": "Free",
+      "required": true
     },
     "BestTime": {
       "type": "string"
@@ -61,6 +61,14 @@
     },
     "slug": {
       "type": "uid"
+    },
+    "Timings": {
+      "type": "enumeration",
+      "enum": [
+        "Always",
+        "Morning 10 AM to Evening  5 PM"
+      ],
+      "required": true
     }
   }
 }
