@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nearbies",
+  "info": {
+    "singularName": "nearby",
+    "pluralName": "nearbies",
+    "displayName": "Nearby",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "FeaturedImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Gallery": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "EntryFee": {
+      "type": "string"
+    },
+    "Timings": {
+      "type": "string"
+    },
+    "BestTime": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "Map": {
+      "type": "string"
+    },
+    "Youtube": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    }
+  }
+}

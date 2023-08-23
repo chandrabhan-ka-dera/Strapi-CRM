@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nearby_categories",
+  "info": {
+    "singularName": "nearby-category",
+    "pluralName": "nearby-categories",
+    "displayName": "Nearby Category"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}
