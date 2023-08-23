@@ -18,6 +18,7 @@
     "better-sqlite3": "^8.5.1",
     "pg": "^8.8.0",
     "strapi-plugin-ezforms": "^0.1.5",
+    "strapi-plugin-menus": "^1.4.3",
     "strapi-plugin-vercel-deploy": "^1.4.0",
     "strapi-provider-email-resend": "^1.0.4"
   },
