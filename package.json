@@ -15,7 +15,7 @@
     "@strapi/plugin-users-permissions": "^4.5.5",
     "@strapi/provider-upload-cloudinary": "^4.5.5",
     "@strapi/strapi": "^4.12.4",
-    "better-sqlite3": "^8.4.0",
+    "better-sqlite3": "^8.5.1",
     "pg": "^8.8.0",
     "strapi-plugin-ezforms": "^0.1.5",
     "strapi-plugin-vercel-deploy": "^1.4.0",
