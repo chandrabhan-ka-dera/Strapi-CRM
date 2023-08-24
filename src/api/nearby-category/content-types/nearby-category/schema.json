@@ -4,16 +4,26 @@
   "info": {
     "singularName": "nearby-category",
     "pluralName": "nearby-categories",
-    "displayName": "Nearby Category"
+    "displayName": "Nearby Category",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "slug": {
       "type": "uid",
